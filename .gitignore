@@ -1,11 +1,13 @@
-# dependencies
-node_modules
-
-# logs
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
 npm-debug.log
-
-# Nuxt build
-.nuxt
-
-# Nuxt generate
-dist
+yarn-error.log
+/.idea

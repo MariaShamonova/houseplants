@@ -1,0 +1,66 @@
+.header
+    position: fixed
+    background: #ffffff
+    z-index: 999
+    top: 0
+    left: 0
+    width: 100%
+    font-family: 'OpenSans-Light',sans-serif
+    font-style: normal
+    font-weight: 300
+    font-size: 14px
+    &__mobile-menu
+        display: none
+        width: 20px
+        margin-right: 30px
+        position: relative
+        span
+          width: 100%
+          background-color: white
+          height: 2px
+          display: block
+          margin-bottom: 4px
+          transition: 0.3s
+          &:last-child
+            margin-bottom: 0
+        &.active
+          span
+            position: absolute
+            &:nth-child(2)
+              display: none
+            &:nth-child(1)
+              transform: rotate(45deg)
+            &:nth-child(3)
+              transform: rotate(-45deg)
+    &__wrapper
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 0px 120px  
+    &__left
+        display: flex
+        align-items: center
+    &__right
+        display: flex
+        align-items: center
+    &__menu
+        z-index: 999
+    &__logo
+        margin-right: 75px
+        img
+          width: 92px
+          height: 89px
+    &__items
+        display: flex
+        align-items: center
+    &__item
+        position: relative
+        margin-right: 60px
+        list-style: none
+        &:hover
+            .header__submenu
+                display: block
+    &__link
+        color: #000000 
+        text-decoration: none
+        
