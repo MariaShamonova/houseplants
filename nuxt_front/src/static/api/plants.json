@@ -1,23 +1,72 @@
 [
     {
-        "name": "АГАВА АМЕРИКАНСКАЯ",
+        "id": 1,
+        "name": "Фикус Бенджамина",
         "price": 139,
-        "size": "small",
+        "size_id": "1",
         "color": "#ffffff",
-        "description": "Описание агава"
+        "category_id": 1, 
+        "description": "Описание агава",
+        "image": "/img/plants-2.png"
     },
     {
-        "name": "ФИКУС АВСТРАЛИЙСКИЙ",
+        "id": 2,
+        "name": "Адениум",
         "price": 190,
-        "size": "medium",
+        "size_id": "2",
         "color": "#ff56ff",
-        "description": "Описание фикус"
+        "category_id": 3, 
+        "description": "Описание фикус",
+        "image": "/img/plants-6.png"
     },
     {
-        "name": "АНТУРИУМ ДЖАНГЛ БУШ",
-        "price": 3560,
-        "size": "large",
+        "id": 3,
+        "name": "Каланхое",
+        "price": 340,
+        "sizeid": "3",
         "color": "#ffeeee",
-        "description": "Описание антур"
+        "category_id": 1, 
+        "description": "Описание каланхое",
+        "image": "/img/plants-3.png"
+    },
+    {
+        "id": 4,
+        "name": "Спатифиллум",
+        "price": 720,
+        "sizeid": "3",
+        "color": "#ffeeee",
+        "category_id": 5, 
+        "description": "Описание аспати",
+        "image": "/img/plants-4.png"
+    },
+    {
+        "id": 5,
+        "name": "Эхиверия",
+        "price": 330,
+        "sizeid": "3",
+        "color": "#ffeeee",
+        "category_id": 9, 
+        "description": "Описание эхиврия",
+        "image": "/img/plants-1.png"
+    },
+    {
+        "id": 6,
+        "name": "Синокрасулла",
+        "price": 200,
+        "sizeid": "3",
+        "color": "#ffeeee",
+        "category_id": 2, 
+        "description": "Описание антур",
+        "image": "/img/plants-6.png"
+    },
+    {
+        "id": 7,
+        "name": "Гастерия",
+        "price": 460,
+        "sizeid": "3",
+        "color": "#ffeeee",
+        "category_id": 2, 
+        "description": "Описание антур",
+        "image": "/img/plants-2.png"
     }
 ]

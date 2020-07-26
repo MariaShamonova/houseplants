@@ -1,10 +1,61 @@
 
-.applications 
-    border: 1px solid red  
+.applications    
     width: 100%
     height: auto
     padding-top: 93px
+    color: #293D35
     &__wrapper 
-        border: 1px solid pink
-       
+        display: flex  
     &__menu 
+    &__head 
+        padding: 0px 40px
+        width: 80%
+        h3
+            font-family: 'Cormorant-SemiBold'
+            font-size: 30px
+            margin-top: 0 !important
+            margin-bottom: 30px
+        .applications-block  
+            margin-bottom: 15px         
+            &__header
+                font-family: 'OpenSans-Semibold'
+                font-size: 14px
+                font-weight: 600
+                margin-bottom: 10px
+            &__body 
+                .category
+                    margin: 0
+                    padding: 0
+                    &__item 
+                        list-style: none
+                        margin-bottom: 10px
+                        font-family: 'OpenSans-Light'
+                        font-size: 12px
+                        font-weight: 300
+                .filter-price 
+                    display: flex             
+                    input
+                        width: 70px
+                        height: 30px
+                        margin-right: 10px
+                .filter-color
+                    display: flex
+                    justify-content: flex-start
+                    padding: 0
+                    &__item
+                        width: 40px
+                        list-style: none
+                        .circle-background
+                            width: 29px
+                            height: 29px
+                            border-radius: 50%
+
+            .title-price
+                font-family: 'OpenSans-Regular'
+                font-size: 12px
+                margin-bottom: 10px
+    .applications__page    
+        flex: 1
+        padding-right: 40px 
+        
+
