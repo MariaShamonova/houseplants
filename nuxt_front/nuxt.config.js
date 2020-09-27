@@ -2,7 +2,7 @@ import axios from 'axios';
 import _ from 'lodash';
 
 module.exports = {
-  ssr: false,
+  ssr: true,
   srcDir: 'src',
   /*
   ** Headers of the page

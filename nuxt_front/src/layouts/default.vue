@@ -8,6 +8,14 @@
 </template>
 
 <script>
+
+import Vue from 'vue'
+import Axios from 'axios'
+Vue.prototype.$http = Axios;
+Vue.config.productionTip = false;
+
+import router from '../router';
+
 export default {
  
 };

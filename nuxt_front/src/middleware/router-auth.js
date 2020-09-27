@@ -1,6 +1,6 @@
 export default function({ store, redirect, route }) {
 
-    if (route.path === '/') redirect('/auth')
+    if (route.path === '/') redirect('/auth/main')
     // store.getters['api/auth/isAuthenticated'] && route.name == 'login' ? redirect('/dashboard') : ''
     // !store.getters['api/auth/isAuthenticated'] && isAdminRoute(route) ? redirect('/') : ''
   }

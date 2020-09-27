@@ -1,0 +1,251 @@
+.main-page   
+    margin-top: 100px   
+    display: flex 
+    justify-content: center 
+    align-items: center
+    flex-direction: column
+    &__wrapper
+        width: 80% 
+        height: 75vh
+    &__left
+        width: 50%
+        height: 100%
+    &__button
+        height: 30%
+        display: flex 
+        align-items: center
+        .button-catalog 
+            margin-left: 3px
+            background: #43715B
+            height: 50px
+            width: 50%
+            border: 1px solid white
+            outline: 5px solid #43715B
+            color: white 
+            font-family: "OpenSans-Bold"
+    &__title
+        height: 25%
+        p 
+            font-family: 'Cormorant-SemiBold'
+            font-size: 50px 
+            color: #293D35
+            white-space: nowrap
+    &__description
+        height: 30%
+        p
+            font-family: 'OpenSans-Light'
+            color: #000000
+            font-size: 12px
+            line-height: 35px
+    .independent-block
+        &__left 
+            background: rgba(16, 84, 51, 0.08)
+            position: absolute
+            top: 30% 
+            left: 0
+            width: 40% 
+            height: 35%
+        &__right
+            background: rgba(16, 84, 51, 0.08)
+            position: absolute
+            top: 50% 
+            right: 0
+            width: 45% 
+            height: 35%
+            img 
+                max-height: 200%
+                position: absolute
+                bottom: 0
+                left: 40px
+    .second-page
+        &__wrapper
+            height: 70vh
+            width: 80%
+            margin-top: 50px
+        &__title
+            height: 50px 
+            width: 100%
+            p 
+                font-family: 'Cormorant-SemiBold'
+                font-size: 30px
+                margin: 0
+                width: 40%
+                height: 100%
+                display: flex 
+                align-items: center
+                justify-content: center
+                color: #293D35
+        &__content         
+            height: 70% 
+            display: flex 
+            justify-content: flex-end
+            position: relative
+            .independent-block__second
+                position: absolute
+                width: 60%
+                height: 400px
+                left: 0
+                top: 30%
+                z-index: -1
+                background: #CBE0D3
+                img 
+                    margin-bottom: 0
+                    position: absolute
+                    bottom: 0             
+        &__right
+            width: 50% 
+            margin-top: -20px
+            display: flex 
+            justify-content: center 
+            align-items: center
+            background: #ECF1EF
+            .why
+                &__wrapper
+                    height: 80%
+                    width: 80%
+                    display: flex 
+                    align-items: center
+                &__list  
+                    list-style: none  
+                    margin: 0
+                    padding: 0
+                    height: 100%
+                    display: flex 
+                    align-items: center
+                    justify-content: flex-start
+                    flex-direction: column
+                &__item
+                    display: flex
+                    align-items: center
+                    justify-content: flex-start
+                    height: 30%
+                    width: 100%
+                    p
+                        font-family: 'OpenSans-Light'
+                        font-size: 11px
+                        width: auto
+                    span 
+                        font-family: 'Cormorant-SemiBold'
+                        font-size: 30px
+                        color: #293D35                    
+                        width: 50px !important
+                        min-width: 50px
+                        display: flex 
+                        align-items: flex-start
+    .thirty-page        
+        &__wrapper 
+            width: 80%            
+            margin-top: 250px
+            position: relative
+            margin-bottom: 100px
+            .independent-block__garant-left
+                background: #EFF9F4
+                height: 500px
+                width: 50%
+                position: absolute 
+                right: 0
+                top: -50px
+                z-index: -1
+        &__title
+            height: 50px
+            display: flex 
+            justify-content: center
+            p 
+                font-family: 'Cormorant-SemiBold'
+                font-size: 30px
+                margin: 0
+                width: 40%
+                height: 100%
+                display: flex 
+                align-items: center
+                justify-content: center
+                color: #293D35
+        &__content
+            
+            .garant 
+                height: 280px
+                display: flex 
+                justify-content: flex-end
+                position: relative
+                
+                .independent-block__garant 
+                    background: #ECF1EF
+                    height: 300px
+                    width: 30%
+                    position: absolute
+                    top: 50px
+                    left: 0
+                    display: flex 
+                    justify-content: center
+                    img 
+                        height: 65%
+                        position: absolute
+                        bottom: 0                       
+                &__left 
+                    width: 70%
+                    display: flex 
+                    justify-content: center 
+                    align-items: center
+                    p 
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        width: 80%
+                        height: 70%
+                        font-family: 'OpenSans-Light'
+                        line-height: 30px
+                        font-size: 11px
+                        text-align: left
+            .post     
+                height: 450px  
+                display: flex  
+                justify-content: flex-start
+                align-items: center
+                position: relative
+                .independent-block__post 
+                    background: #CBE0D3
+                    height: 300px 
+                    width: 40%
+                    position: absolute
+                    right: -50px
+                    display: flex 
+                    justify-content: center
+                    img 
+                        position: absolute
+                        bottom: 0
+                        height: 90%
+                &__right
+                    width: 65%
+                    display: flex 
+                    justify-content: center
+                    p
+                        width: 80% 
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        text-align: left
+                        line-height: 30px
+                        font-size: 11px
+                        font-family: 'OpenSans-Light'
+            .button
+                width: 100%
+                display: flex 
+                justify-content: center
+                .button-catalog
+                    background: #43715B
+                    height: 50px
+                    width: 250px
+                    border: 1px solid white
+                    outline: 5px solid #43715B
+                    color: white 
+                    font-family: "OpenSans-Bold"
+
+                  
+html, body 
+    margin: 0
+    padding: 0
+    &::-webkit-scrollbar
+        border-left: 1px solid #e0e9e9
+        width: 4px
+    &::-webkit-scrollbar-thumb
+        background: #43715B

@@ -12,7 +12,7 @@
           <span></span>
         </div>
         <nuxt-link class="header__logo" to="/" @click.native="isActive=!isActive">
-          <img src="../assets/img/Logo.png" alt width="92" height="89" />
+          <img src="/assets/img/Logo.png" alt width="92" height="89" />
         </nuxt-link>
       </div>
       <div class="header__right">
@@ -28,9 +28,13 @@
               <nuxt-link class="header__link" @click.native="isActive=!isActive" to="/">Контакты</nuxt-link>
             </li>
             <li class="header__item">
-              <nuxt-link class="basket-logo" to="/"  @click.native="isActive=!isActive">
-                <img src="../assets/img/basket.png" alt="" width="20">
+              <nuxt-link class="basket-logo" to="/auth/basket"  @click.native="isActive=!isActive">
+                <img src="/assets/img/basket.png" alt="" width="20">
               </nuxt-link>
+            </li>
+            <li class="header__item">
+              <nuxt-link class="header__link" @click.native="isActive=!isActive" to="/auth/auth"><button>Войти</button></nuxt-link>
+              
             </li>
           </ul>
         </nav>
